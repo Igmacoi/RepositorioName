@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EAEDED;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+header{
+  max-width: 1000px;
+  margin: auto;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+hr{
+  background-color: #1ABC9C;
+}
+
+main{
+  max-width: 1000px;
+  margin: auto;
+}
+
+main .principal{
+  font-size: 1.5rem;
+}
+
+main .paginaAlt{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+
+.paginaAlt a{
+  padding: 1.5rem;
+  background-color: #1ABC9C;
+  border-radius: 1rem;
+  border:solid 1px #1ABC9C;
+  font-size: 2rem;
+  margin-right: 3rem;
+  text-decoration: none;
+}
+
+.paginaAlt a:hover{
+  cursor: pointer;
+  box-shadow: 4px .2rem .2rem;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
